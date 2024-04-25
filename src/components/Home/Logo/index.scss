@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+}
+
+.content {
+  flex: 1; /* This will make the content take up remaining space */
+}
+
+.image-container {
+  flex: 1; /* This will make the image container take up remaining space */
+  display: flex;
+  justify-content: flex-end; /* This will align the image to the right side */
+}
+
+.right-image {
+  max-width: 100%; /* Optional: adjust the size of the image */
+}
